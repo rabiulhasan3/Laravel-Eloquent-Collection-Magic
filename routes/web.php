@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('take','eloquentMagicCollectionController@take');
+Route::get('chunk','eloquentMagicCollectionController@chunk');
