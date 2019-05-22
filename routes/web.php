@@ -49,3 +49,7 @@ Route::get('sortKeys','shortController@sortKeys');
 
 Route::get('each','eachMapController@each');
 Route::get('map','eachMapController@map');
+
+
+Route::get('merge','margeConcatController@merge');
+Route::get('concat','margeConcatController@concat');
