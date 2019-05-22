@@ -46,3 +46,6 @@ Route::get('delete','whereController@delete');
 Route::get('shortby','shortController@shortby');
 Route::get('sortByDesc','shortController@sortByDesc');
 Route::get('sortKeys','shortController@sortKeys');
+
+Route::get('each','eachMapController@each');
+Route::get('map','eachMapController@map');
