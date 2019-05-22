@@ -53,3 +53,6 @@ Route::get('map','eachMapController@map');
 
 Route::get('merge','margeConcatController@merge');
 Route::get('concat','margeConcatController@concat');
+
+
+Route::get('groupby','groupBycontroller@groupby');
