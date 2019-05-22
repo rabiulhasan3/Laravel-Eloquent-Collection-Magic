@@ -56,3 +56,8 @@ Route::get('concat','margeConcatController@concat');
 
 
 Route::get('groupby','groupBycontroller@groupby');
+
+Route::get('pop','popPullForgetEveryController@pop');
+Route::get('pull','popPullForgetEveryController@pull');
+Route::get('forget','popPullForgetEveryController@forget');
+Route::get('every','popPullForgetEveryController@every');
