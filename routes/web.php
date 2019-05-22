@@ -42,3 +42,7 @@ Route::get('where-orderby','whereController@orderBy');
 Route::get('pluck','whereController@pluck');
 
 Route::get('delete','whereController@delete');
+
+Route::get('shortby','shortController@shortby');
+Route::get('sortByDesc','shortController@sortByDesc');
+Route::get('sortKeys','shortController@sortKeys');
